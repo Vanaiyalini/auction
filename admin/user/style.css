@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /*
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    */
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.logo{
+
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+}
+
+
+.navbar {
+    background-color: #bcac8c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Additional CSS for Logout button */
+.Logout {
+    background-color: white; /* Dark background color */
+    color: black; /* White text color */
+    font-size: 16px;
+    padding: 10px 20px; /* Add padding for better button appearance */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    margin-left: auto; /* Align to the right */
+    margin-right: 20px; /* Add some margin for spacing */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.Logout:hover {
+    background-color: wheat; /* Darken background color on hover */
+}
+
+/* style.css */
+
+/* styles.css */
+.card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .value {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  

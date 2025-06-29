@@ -1,0 +1,121 @@
+
+body{
+
+  /*background-image: url('https://media.istockphoto.com/id/1036189524/vector/brown-gold-wallpaper-with-white-damask-pattern.jpg?s=612x612&w=0&k=20&c=15C-A3vKItG30rQfNdlAhgg46bVCpsFaV9DKdb4f2mM=');*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+
+
+}
+
+.container{
+
+  margin-top:40px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  column-gap:50px;
+  row-gap: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+
+
+}
+
+
+
+
+p{
+  font-family:Arial;
+  margin-top:0;
+  margin-bottom:0;
+  
+
+}
+
+.card{
+  margin-right:15px;
+  cursor:pointer;
+  box-shadow:0 0 5px rgba(17, 16, 16, 0.3);
+  margin:auto;
+  background-color: rgb(243, 234, 234);
+  border-radius: 6px;;
+  transition:1s;
+ }
+
+.card:hover{
+ 
+  margin:auto;
+  transform:scale(1.1);
+  z-index:2;
+
+
+ 
+
+}
+
+
+.product-picture{
+  width:300px;
+  height:300px;
+
+  
+  object-position:center;
+  margin-bottom:12px;
+
+}
+
+.name{
+
+  margin-left:8px;
+  font-size:18px;
+  font-weight:500;
+ 
+  margin-bottom:4px;
+  text-align:center;
+ 
+
+}
+
+
+.date{
+  margin-left:8px;
+  text-align:center;
+
+}
+
+
+.price{
+  color:rgb(100,100,100);
+  margin-left:8px;
+  margin-bottom:12px;
+  text-align:center;
+}
+
+.Bid-button{
+  background-color:rgb(187, 156, 99);
+  color:white;
+  border:none;
+  padding:10px 30px 10px 30px;
+  font-size:16px;
+  font-weight: bold;
+  margin:auto;
+  margin-bottom:10px;
+  border-radius:12px;
+  width:300px;
+  box-sizing: border-box;
+  margin-bottom:10px;
+  cursor:pointer;
+  transition:background-color 0.3s
+
+  
+  }
+
+
+.Bid-button:hover{
+
+ background-color:rgb(107, 68, 5);
+
+
+}

@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../image/Auction background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 420px;
+    height: 380px;
+    color: #1e191909;
+    padding: 5px 50px;
+    background: transparent;
+    backdrop-filter: blur(25px);
+    border: 2px solid #5a5a5a;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #ddb243;
+    border-radius: 20px;
+    width: 300px;
+    color: #191818;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box i {
+    position: absolute;
+    right: 40px;
+    top: 80%;
+    transform: translateY(-70%);
+    font-size: 20px;
+}
+
+.remember-forgot label {
+    display: flex;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    margin-left: 35px;
+    color: #191818;
+}
+
+.remember-forgot {
+    text-decoration: none;
+    margin-left: 35px;
+    color: #191818;
+    display: flex;
+    align-items: center;
+}
+
+.remember-forgot input[type="checkbox"] {
+    margin-right: 10px; 
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.remember-forgot p {
+    margin-right: 20px; 
+}
+
+
+.btn {
+    background-color: #d1990c;
+    border-style: solid;
+    border-width: 0px;
+    color: #fff;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px 100px;
+}
+
+.register-link a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fbf4f4;
+}
+
+.register-link p {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #121111;
+}
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+fieldset {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: 550px;
+    border-radius: 40px;
+    border-width: 0px;
+}
+
+p {
+    color: black;
+}

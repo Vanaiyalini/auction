@@ -1,0 +1,59 @@
+/* style.css */
+
+/* Container styles */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    overflow-x: auto; 
+    max-width: 100%;
+}
+
+/* Table styles */
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+    text-align: center; /* Center-align cell content */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis;
+}
+
+/* Table header styles */
+.table th {
+    background-color: #f2f2f2;
+}
+
+/* Button styles */
+.buttonu, .buttond, .buttona {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff; /* for update button */
+    color: #fff;
+    text-decoration: none; /* Changed from "solid" to "none" */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buttond {
+    background-color: #dd0e34; /* for delete button */
+}
+
+.buttona {
+    background-color: #3B3131; /* for add button */
+}
+
+.buttonu a, .buttond a, .buttona a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}

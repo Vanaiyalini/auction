@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    background-size: cover;
+}
+
+.logo {
+    color: rgb(18, 2, 2);
+}
+
+.logo span {
+    color: rgb(20, 16, 16);
+    padding: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+.footer-nav a:hover {
+    color: #555;
+}
+
+
+.icon a {
+    color: #100505;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.icon a:hover {
+    color: #000;
+}
+
+
+.icon {
+    align-items: left;
+    font-size: 20px;
+    display: inline;
+}
+
+.icon a {
+    color: rgb(7, 2, 2);
+}
+
+.icon a:hover {
+    color: rgb(58, 58, 58);
+}
+
+div h2 {
+    margin-top: 10px;
+    color: rgb(25, 3, 3);
+    font-size: 35px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+div form textarea {
+    width: 800px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 50px ;
+    background-color: rgba(245, 245, 245, 0.915);
+}
+
+div input {
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+div .nav-comment {
+    background-color: rgb(218, 192, 159);
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+}
+
+#show-comments {
+    margin-left: 200px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 190px;
+    margin-top: 60px;
+    border-color: transparent;
+}
+
+.comment-container {
+    margin-bottom: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    color: rgb(12, 1, 1);
+    font-size: 25px;
+    margin-left: 40px;
+    border-color: transparent;
+}
+
+.hide-comments {
+    display: none;
+}

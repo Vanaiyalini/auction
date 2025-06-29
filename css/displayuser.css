@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.buttonu, .buttond, .buttona {
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: #007bff; /* for update button */
+    color: #fff;
+  /*  text-decoration: none; /* Changed from "solid" to "none" */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.buttond {
+    background-color: #dd0e34; /* for delete button */
+}
+
+.buttona {
+    background-color: #3B3131; /* for add button */
+}
+
+.buttonu a, .buttond a, .buttona a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.buttonu:hover, .buttond:hover, .buttona:hover {
+    background-color: #0056b3; /* darker shade on hover */
+}
+
+/* Add focus styles for accessibility */
+.buttonu:focus, .buttond:focus, .buttona:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* example focus style */
+}
