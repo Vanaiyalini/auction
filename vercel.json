@@ -1,34 +1,33 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/",
-      "destination": "/index.html"
+      "src": "**/*.html",
+      "use": "@vercel/static"
     },
     {
-      "source": "/about",
-      "destination": "/aboutus.html"
+      "src": "**/*.css",
+      "use": "@vercel/static"
     },
     {
-      "source": "/catalogue",
-      "destination": "/catalogue.html"
+      "src": "**/*.js",
+      "use": "@vercel/static"
     },
     {
-      "source": "/faq",
-      "destination": "/FAQ.html"
+      "src": "**/*.png",
+      "use": "@vercel/static"
     },
     {
-      "source": "/privacy",
-      "destination": "/privacy.html"
-    },
-    {
-      "source": "/terms",
-      "destination": "/terms.html"
-    },
-    {
-      "source": "/contact",
-      "destination": "/contact.html"
+      "src": "**/*.jpg",
+      "use": "@vercel/static"
     }
   ],
-  "buildCommand": "echo 'Building static site...'",
-  "outputDirectory": "."
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "trailingSlash": false,
+  "cleanUrls": true
 }
