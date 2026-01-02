@@ -1,8 +1,32 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/",
       "destination": "/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/aboutus.html"
+    },
+    {
+      "source": "/catalogue",
+      "destination": "/catalogue.html"
+    },
+    {
+      "source": "/faq",
+      "destination": "/FAQ.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
     }
   ],
   "buildCommand": "echo 'Building static site...'",
